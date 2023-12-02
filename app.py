@@ -7,7 +7,7 @@ def fetch_poster(movie_id):
 
     headers = {
         "accept": "application/json",
-        "Authorization": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI1MjQ3M2VlYTY3NDdkNjA5ZjYwMWRlODk1ZTM2YTkxYyIsInN1YiI6IjY1NjBlY2VhMzY3OWExMDk3N2UwMjFiYSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.kvapx4x6P7UV72Tt9u0MO8OcYBiLkyvl1iBfhEbrDX8"
+        "Authorization": "...KEY..."
     }
 
     response = requests.get(url, headers=headers)
